@@ -1,0 +1,33 @@
+{
+  "name": "mass-displacement-analysis",
+  "description": "Terrain Mass Displacement Analysis ; plug-in for Autodesk Forma",
+  "private": true,
+  "homepage" : "https://maxbrs.github.io/forma-extension-terrain-displacement-analysis/",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base=./",
+    "preview": "vite preview --port 8081",
+    "prettier:write": "prettier --write src",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@nivo/bar": "^0.83.0",
+    "@preact/signals": "^1.2.2",
+    "forma-embedded-view-sdk": "0.53.2",
+    "goober": "^2.1.14",
+    "preact": "^10.17.1",
+    "three": "^0.157.0",
+    "three-mesh-bvh": "^0.6.7"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@types/three": "^0.156.0",
+    "eslint": "^8.50.0",
+    "eslint-config-preact": "^1.3.0",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.12"
+  }
+}
